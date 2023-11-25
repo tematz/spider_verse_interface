@@ -1,3 +1,6 @@
+import styles from './heroesList.module.scss'
+
+import { spiderManFont } from '@/fonts'
 import { IHeroData } from '@/interfaces/heroes'
 
 interface Iprops {
@@ -7,11 +10,9 @@ interface Iprops {
 export default function HeroesList({ heroes }: Iprops) {
   return (
     <>
-      <h1>Heroes List</h1>
-
-      {heroes.map((hero) => (
-        <p key={hero.id}>{hero.name}</p>
-      ))}
+      <h1 className={`${spiderManFont.className} ${styles.title}`}>
+        Personagens
+      </h1>
     </>
   )
 }
