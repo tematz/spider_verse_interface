@@ -31,12 +31,15 @@ export default function HeroesList({ heroes }: Iprops) {
         transition={{ duration: 2 }}
       >
         {heroes.map((hero) => (
-          <div
+          <motion.div
             key={hero.id}
             className={`${styles.imageContainer} ${styles[hero.id]}`}
+            whileHover={{ scale: 1.3 }}
+            whileTap={{ scale: 0.8 }}
+            transition={{ duration: 0.8 }}
           >
             <HeroPicture hero={hero} />
-          </div>
+          </motion.div>
         ))}
       </motion.section>
     </>
