@@ -1,3 +1,7 @@
+'use client'
+
+import { motion } from 'framer-motion'
+
 import HeroPicture from '../HeroPicture'
 
 import styles from './heroesList.module.scss'
@@ -12,10 +16,20 @@ interface Iprops {
 export default function HeroesList({ heroes }: Iprops) {
   return (
     <>
-      <h1 className={`${spiderManFont.className} ${styles.title}`}>
+      <motion.h1
+        className={`${spiderManFont.className} ${styles.title}`}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 2, delay: 2 }}
+      >
         Personagens
-      </h1>
-      <section className={styles.heroes}>
+      </motion.h1>
+      <motion.section
+        className={styles.heroes}
+        initial={{ opacity: 0, y: -100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 2 }}
+      >
         {heroes.map((hero) => (
           <div
             key={hero.id}
@@ -24,7 +38,7 @@ export default function HeroesList({ heroes }: Iprops) {
             <HeroPicture hero={hero} />
           </div>
         ))}
-      </section>
+      </motion.section>
     </>
   )
 }
