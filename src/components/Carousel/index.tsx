@@ -5,6 +5,6 @@ interface IProps {
   activeId: string
 }
 
-export default function Carousel({}: IProps) {
-  return <h1>Componente Carousel</h1>
+export default function Carousel({ heroes, activeId }: IProps) {
+  return <h1>Componente Carousel: {activeId}</h1>
 }
