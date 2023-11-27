@@ -37,6 +37,22 @@ export default function Carousel({ heroes, activeId }: IProps) {
     setVisibleItems(visibleItems)
   }, [heroes, activeIndex])
 
+  useEffect(() => {
+    const htmlEl = document.querySelector('html')
+
+    if (!htmlEl || !visibleItems) {
+      return
+    }
+
+    const currentHeroId = visibleItems[enPosition.MIDDLE].id
+    htmlEl.style.backgroundImage = `url("/spiders/${currentHeroId}-background.png")`
+    htmlEl.classList.add('hero-page')
+
+    return () => {
+      htmlEl.classList.remove('hero-page')
+    }
+  }, [visibleItems])
+
   // Altera herói ativo no carrossel
   // +1 rotaciona no sentido horário
   // -1 rotaciona no sentido anti-horário
