@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Spider-Verse
+
+Welcome to the Spider-Verse project! This project focuses on creating a visually stunning interface with high-quality animations while efficiently consuming APIs.
+
+## Technologies Used
+
+### Dependencies
+
+- **framer-motion:** Version 10.16.5
+- **next:** Version 14.0.3
+- **react:** Version 18
+- **react-dom:** Version 18
+
+### Development Dependencies
+
+- **@types/node:** Version 20
+- **@types/react:** Version 18
+- **@types/react-dom:** Version 18
+- **eslint:** Version 8
+- **eslint-config-next:** Version 14.0.3
+- **eslint-config-prettier:** Version 9.0.0
+- **eslint-plugin-import:** Version 2.29.0
+- **eslint-plugin-unused-imports:** Version 3.0.0
+- **sass:** Version 1.69.5
+- **typescript:** Version 5
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository: `git clone https://github.com/tematz/spider-verse.git`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **High-Performance Animations:** Leveraging the power of framer-motion, this project delivers smooth and efficient animations for a visually appealing experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **API Consumption:** Utilizing the Next.js framework, the project seamlessly integrates with APIs to fetch and display dynamic content.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Development Guidelines
 
-## Learn More
+- **Linting:** The project follows linting rules to ensure code quality and consistency. Make sure to run `npm run lint` before committing changes.
 
-To learn more about Next.js, take a look at the following resources:
+- **TypeScript:** TypeScript is employed for type safety and improved developer experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contributions are welcome! If you have ideas for enhancing the animations or improving API consumption, feel free to open an issue or submit a pull request.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+Enjoy creating stunning interfaces! 🚀

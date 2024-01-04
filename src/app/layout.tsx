@@ -30,6 +30,7 @@ export default function RootLayout({
               alt="Spider-man"
               width={260}
               height={70}
+              className="logo"
             />
           </Link>
           <Image src="/icons/user.svg" alt="Login" width={36} height={36} />

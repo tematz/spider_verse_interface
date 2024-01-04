@@ -22,6 +22,12 @@ body {
   max-width: $max-width;
   height: calc(100vh - 3.5rem);
   overflow: hidden;
+
+  @media screen and (max-width: 768px) {
+    /* Ajustes para telas menores */
+
+    max-width: 90%;
+  }
 }
 
 header {
@@ -31,4 +37,11 @@ header {
   margin: 3rem 3rem 0;
   position: relative;
   z-index: 4;
+
+  @media screen and (max-width: 768px) {
+    margin: 1rem 1rem;
+    .logo {
+      width: 12rem;
+    }
+  }
 }
