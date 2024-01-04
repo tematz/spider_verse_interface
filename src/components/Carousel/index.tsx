@@ -189,7 +189,7 @@ const getItemStyles = (position: enPosition) => {
   return {
     zIndex: 1,
     filter: 'blur(10px)',
-    left: 160,
+    left: 200,
     top: '-20%',
     scale: 0.6,
     opacity: 0.8,

@@ -1,5 +1,9 @@
 .container {
   display: flex;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .carousel {
@@ -16,6 +20,11 @@
 
   &:active {
     cursor: grabbing;
+  }
+
+  @media screen and (max-width: 768px) {
+    height: 70vh;
+    right: 15%;
   }
 }
 
@@ -36,5 +45,10 @@
     height: 100%;
     object-fit: contain;
     object-position: center right;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 50%;
+    left: 30%;
   }
 }
