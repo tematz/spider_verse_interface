@@ -26,7 +26,7 @@ Welcome to the Spider-Verse project! This project focuses on creating a visually
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/tematz/spider-verse.git`
+1. Clone the repository: `git clone https://github.com/your-username/spider-verse.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm run dev`
 
@@ -41,15 +41,3 @@ Welcome to the Spider-Verse project! This project focuses on creating a visually
 - **Linting:** The project follows linting rules to ensure code quality and consistency. Make sure to run `npm run lint` before committing changes.
 
 - **TypeScript:** TypeScript is employed for type safety and improved developer experience.
-
-## Contributions
-
-Contributions are welcome! If you have ideas for enhancing the animations or improving API consumption, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License
-
----
-
-Enjoy creating stunning interfaces! 🚀
