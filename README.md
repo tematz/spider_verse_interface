@@ -46,10 +46,6 @@ Welcome to the Spider-Verse project! This project focuses on creating a visually
 
 Contributions are welcome! If you have ideas for enhancing the animations or improving API consumption, feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License
-
 ---
 
 Enjoy creating stunning interfaces! 🚀
