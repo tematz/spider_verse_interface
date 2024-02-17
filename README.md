@@ -41,3 +41,14 @@ Welcome to the Spider-Verse project! This project focuses on creating a visually
 - **Linting:** The project follows linting rules to ensure code quality and consistency. Make sure to run `npm run lint` before committing changes.
 
 - **TypeScript:** TypeScript is employed for type safety and improved developer experience.
+<<<<<<< HEAD
+=======
+
+## Contributions
+
+Contributions are welcome! If you have ideas for enhancing the animations or improving API consumption, feel free to open an issue or submit a pull request.
+
+---
+
+Enjoy creating stunning interfaces! 🚀
+>>>>>>> 40a8bce156f0f78ac92ee40f3eb86d31ffd9d68a
