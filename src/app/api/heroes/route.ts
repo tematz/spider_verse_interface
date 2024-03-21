@@ -1,8 +1,12 @@
-import { NextResponse } from "next/server"
+import { NextResponse } from "next/server";
+
+import heroesData from "./heroes.json";
 
 export async function GET() {
-  const res = await fetch(`${process.env.API_URL}/api/heroes`)
-  const data = await res.json()
-
-  return NextResponse.json({ data })
+  try {
+    return NextResponse.json({ data: heroesData });
+  } catch (error) {
+    console.error(error);
+    return NextResponse.error();
+  }
 }
