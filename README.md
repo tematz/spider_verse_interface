@@ -6,9 +6,3 @@ This project delivers stunning animations and seamlessly integrates with APIs us
 
 - **Smooth & Efficient Animations (Framer Motion)**
 - **Dynamic Content with API Integration (Next.js)**
-
-**Tech Stack:**
-
-- Framer Motion (animations)
-- Next.js (framework)
-- React (UI library)
